@@ -2,6 +2,12 @@ nav {
   background-color: rgb(169, 209, 212);
   padding: .50em;
 }
+#logo {
+  align-self: flex-start;
+  margin: 0em 16em 0em 0em;
+  width: 75px;
+  height: 75px;
+}
 ul > .nav-item {
   font-family: 'Montserrat', sans-serif;
   margin: 0em .75em;

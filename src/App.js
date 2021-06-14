@@ -12,7 +12,7 @@ const App = () => {
     <>
     <div className="app">
       <BrowserRouter>
-        <nav className="nav-bar sticky-top">
+        <nav className="navbar sticky-top justify-content-end">
           <ul className="nav justify-content-end">
             <li className="nav-item">
               <Link className="nav-link" to="/">HOME</Link>
