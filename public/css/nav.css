@@ -19,20 +19,21 @@ ul > .nav-item {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
   .nav-item {
     margin: 0em;
   }
-  .nav-item > a {
-    font-size: 60%
+  a.nav-link {
+    font-size: .5em
   }
 }
 
 @media (max-width: 576px) {
   a.nav-link{
-    font-size: 1em;
+    font-size: .75em;
   }
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -43,7 +44,7 @@ ul > .nav-item {
     margin: 0em;
   }
   a.nav-link {
-    font-size: 1.35em;
+    font-size: 1em;
   }
 }
 

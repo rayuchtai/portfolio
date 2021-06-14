@@ -47,6 +47,9 @@
   .bio {
     margin: .5em 0em;
   }
+  .bio > p {
+    font-size: .8em;
+  }
   .hello {
     text-align: center;
   }
