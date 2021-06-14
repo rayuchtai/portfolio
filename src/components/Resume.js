@@ -5,8 +5,8 @@ const Resume = () => {
     <>
       <h1>My Resume</h1>
       <div className="resume">
-        <a href="files/resume.pdf" className="btn btn-light" download>Download</a>
-        <img src="imgs/resume.png" alt="resume" />
+        <img src="imgs/resume.png" alt="resume" id="resume-img"/>
+        <a href="files/resume.pdf" id="download-btn" className="btn btn-light" download>Download</a>
       </div>
     </>
   )
