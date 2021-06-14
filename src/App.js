@@ -5,10 +5,11 @@ import { BrowserRouter, Link, Route, Switch } from "react-router-dom"
 import Home from './components/Home.js'
 import About from './components/About.js'
 import Portfolio from './components/Portfolio.js'
-import Contact from './components/Contact.js'
+import Resume from './components/Resume.js'
 
 const App = () => {
   return (
+    <>
     <div className="app">
       <BrowserRouter>
         <nav className="nav-bar">
@@ -23,7 +24,7 @@ const App = () => {
               <Link className="nav-link" to="/portfolio">PORTFOLIO</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">CONTACT</Link>
+              <Link className="nav-link" to="/resume">RESUME</Link>
             </li>
           </ul>
         </nav>
@@ -38,17 +39,23 @@ const App = () => {
               <Portfolio />
             </div>
           </Route>
-          <Route path="/contact">
-            <div className="contact-container">
-              <Contact />
+          <Route path="/resume">
+            <div className="resume-container">
+              <Resume />
             </div>
           </Route>
           <Route path="/">
-            <Home />
+            <div className="home-container">
+              <Home />
+            </div>
           </Route>
         </Switch>
       </BrowserRouter>
     </div>
+    <footer>
+      <h5>Connect with me: Linkedin and Github</h5>
+    </footer>
+  </>
   )
 }
 
