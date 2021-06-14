@@ -1,0 +1,100 @@
+.portfolio-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.portfolio-container > h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: .5em;
+  font-size: 4em;
+}
+#atf-h2 {
+  margin-top: 1.5em
+}
+.project > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#pen {
+  flex-direction: row-reverse;
+}
+#pen > img {
+  margin-left: .75em;
+}
+.info {
+  display:flex;
+  margin: 1em;
+}
+.info > img {
+  margin-right: .75em
+}
+.desc > h3{
+  margin-top: 1em;
+  text-align: left;
+}
+.built{
+  font-size: 2em;
+}
+.desc > h3, .built {
+  font-family: 'Montserrat', sans-serif;
+}
+.desc > p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-links > a {
+  margin: 1em;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 1.5em;
+}
+
+.project-links > a > img {
+  width: 45px;
+  height: 45px;
+}
+
+.project-links > a > .site-btn {
+  width: 38px;
+  height: 38px;
+}
+
+@media (max-width: 576px) {
+
+  
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
