@@ -53,9 +53,9 @@ const App = () => {
       </BrowserRouter>
     </div>
     <footer>
-      <a href="https://www.linkedin.com/in/racheltaima/" target="_blank">Linkedin</a>
-      <a href="https://github.com/rayuchtai" target="_blank">GitHub</a>
-      <a href="mailto:rayuchtai@gmail.com" target="_blank">Email</a>
+      <a href="https://www.linkedin.com/in/racheltaima/" target="_blank" rel="noreferrer">Linkedin</a>
+      <a href="https://github.com/rayuchtai" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:rayuchtai@gmail.com" target="_blank" rel="noreferrer">Email</a>
     </footer>
   </>
   )

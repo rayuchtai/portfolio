@@ -16,8 +16,8 @@ const Portfolio = () => {
               </p>
               <h4>Built with:</h4>
               <div className="project-links">
-                <a href="https://github.com/thewrightbrandon/All_The_Feels_CRA" className="btn btn-primary" target="_blank">CODE</a>
-                <a href="https://all-the-feels-app.herokuapp.com/" className="btn btn-primary" target="_blank">SITE</a>
+                <a href="https://github.com/thewrightbrandon/All_The_Feels_CRA" className="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
+                <a href="https://all-the-feels-app.herokuapp.com/" className="btn btn-primary" target="_blank" rel="noreferrer">SITE</a>
               </div>
             </div>
           </div>
@@ -33,8 +33,8 @@ const Portfolio = () => {
               </p>
               <h4>Built with:</h4>
               <div className="project-links">
-                <a href="https://github.com/rayuchtai/penpursue" className="btn btn-primary" target="_blank">CODE</a>
-                <a href="https://penpursue.herokuapp.com/elements" className="btn btn-primary" target="_blank">SITE</a>
+                <a href="https://github.com/rayuchtai/penpursue" className="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
+                <a href="https://penpursue.herokuapp.com/elements" className="btn btn-primary" target="_blank" rel="noreferrer">SITE</a>
               </div>
             </div>
           </div>
@@ -50,8 +50,8 @@ const Portfolio = () => {
               </p>
               <h4>Built with:</h4>
               <div className="project-links">
-                <a href="https://github.com/rayuchtai/tarotreading" className="btn btn-primary" target="_blank">CODE</a>
-                <a href="https://rider-waite-tarot-simple-app.netlify.app/" className="btn btn-primary" target="_blank">SITE</a>
+                <a href="https://github.com/rayuchtai/tarotreading" className="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
+                <a href="https://rider-waite-tarot-simple-app.netlify.app/" className="btn btn-primary" target="_blank" rel="noreferrer">SITE</a>
               </div>
             </div>
           </div>
