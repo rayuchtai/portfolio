@@ -12,8 +12,8 @@ const App = () => {
     <>
     <div className="app">
       <BrowserRouter>
-        <nav className="nav-bar">
-          <ul className="nav nav-tabs justify-content-end">
+        <nav className="nav-bar sticky-top">
+          <ul className="nav justify-content-end">
             <li className="nav-item">
               <Link className="nav-link" to="/">HOME</Link>
             </li>
@@ -53,7 +53,9 @@ const App = () => {
       </BrowserRouter>
     </div>
     <footer>
-      <h5>Connect with me: Linkedin and Github</h5>
+      <a href="https://www.linkedin.com/in/racheltaima/" target="_blank">Linkedin</a>
+      <a href="https://github.com/rayuchtai" target="_blank">GitHub</a>
+      <a href="mailto:rayuchtai@gmail.com" target="_blank">Email</a>
     </footer>
   </>
   )
