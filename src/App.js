@@ -52,10 +52,10 @@ const App = () => {
         </Switch>
       </BrowserRouter>
     </div>
-    <footer>
-      <a href="https://www.linkedin.com/in/racheltaima/" target="_blank" rel="noreferrer">Linkedin</a>
-      <a href="https://github.com/rayuchtai" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="mailto:rayuchtai@gmail.com" target="_blank" rel="noreferrer">Email</a>
+    <footer className="navbar justify-content-center fixed-bottom">
+      <li><a href="https://www.linkedin.com/in/racheltaima/" target="_blank" rel="noreferrer"><img src="imgs/linkedin-icon.png" alt="linkedin-icon" /></a></li>
+      <li><a href="https://github.com/rayuchtai" target="_blank" rel="noreferrer"><img src="imgs/github-icon.png" alt="github-icon" /></a></li>
+      <li><a href="mailto:rayuchtai@gmail.com" target="_blank" rel="noreferrer"><img className="email" src="imgs/email-icon.png" alt="email-icon" /></a></li>
     </footer>
   </>
   )

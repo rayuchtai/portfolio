@@ -1,5 +1,6 @@
 nav {
   background-color: rgb(169, 209, 212);
+  padding: .50em;
 }
 ul > .nav-item {
   font-family: 'Montserrat', sans-serif;
