@@ -7,10 +7,21 @@
 
 .home-container > h1 {
   font-family: 'Staatliches', cursive;
-  font-size: 7em;
+  font-size: 8em;
   margin-top: .25em;
   color: rgb(77, 80, 127);
   text-shadow: 5px 2px rgb(113, 143, 173)
+}
+
+.home-container > h2 {
+  margin-bottom: .24em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.8em;
+}
+
+.home-container > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
 }
 
 .heartbeat:hover {
