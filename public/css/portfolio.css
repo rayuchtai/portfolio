@@ -127,7 +127,19 @@
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+  .info, #pen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info > img {
+    width: 55%;
+    height: 55%;
+  }
+  .desc > h3 {
+    text-align: center;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
