@@ -12,6 +12,7 @@
 #download-btn{
   background-color: rgba(147, 182, 199, 0.7);
   border: none;
+  margin-top: .75em;
   margin-bottom: 2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
